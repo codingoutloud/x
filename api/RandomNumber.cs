@@ -20,9 +20,9 @@ namespace Company.Function
             var random = new Random();
             int randomInt = random.Next(0, 100);
 
-            if (randomInt % 2 == 0)
+            if (randomInt % 2 == 1)
             {
-                return new BadRequestObjectResult("Even numbers are not allowed.");
+                return new BadRequestObjectResult("Odd numbers are not allowed.");
             }
 
             return new OkObjectResult(randomInt);
