@@ -2,6 +2,12 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Red Text */
+
+.red-text {
+  color: red;
+}
+
 html, body {
   margin: 0;
   border: 0;
